@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>A Mansão Assombrada</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>Após ouvir rumores sobre uma mansão assombrada na cidade, você decide explorar. À noite, você se aproxima da mansão velha e decadente. A porta está entreaberta, convidando você a entrar.</p>
+            <button class="btn-proximo" data-proximo="1">Entrar na Mansão</button>
+            <button class="btn-proximo" data-proximo="2">Desistir e Voltar Para Casa</button>
+        </div>
+
+        <div class="passo" id="passo-1">
+            <p>Você decide entrar na mansão. No hall de entrada, vê duas portas: uma leva para o andar de cima e a outra para o porão. Qual você escolhe explorar?</p>
+            <button class="btn-proximo" data-proximo="3">Subir as Escadas</button>
+            <button class="btn-proximo" data-proximo="4">Descer ao Porão</button>
+        </div>
+
+        <div class="passo" id="passo-2">
+            <p>Você decide que a mansão parece muito assustadora e volta para casa. Apesar de estar seguro, você se pergunta o que teria descoberto se tivesse explorado.</p>
+            <button class="btn-proximo" data-proximo="3"></button>
+        </div>
+
+        <div class="passo" id="passo-3">
+            <p>No andar de cima, você encontra uma porta trancada e uma chave em cima de uma mesa. Decida se você usa a chave na porta trancada ou se explora os outros quartos.</p>
+            <button class="btn-proximo" data-proximo="5">Usar a Chave na Porta</button>
+            <button class="btn-proximo" data-proximo="6">Explorar os Outros Quartos</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <p>No porão, você encontra uma velha caixa de música tocando sozinha. A caixa está coberta de poeira e parece ter um segredo. Você decide se investigar a caixa ou voltar para o andar de cima.</p>
+            <button class="btn-proximo" data-proximo="7">Investigar a Caixa de Música</button>
+            <button class="btn-proximo" data-proximo="8">Voltar para o Andar de Cima</button>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Você usa a chave na porta trancada e encontra uma sala secreta cheia de antiguidades e livros antigos. Entre eles, um livro revela a história trágica dos antigos moradores da mansão.</p>
+            <button class="btn-proximo" data-proximo="9">Ler o Livro</button>
+            <button class="btn-proximo" data-proximo="10">Explorar Mais a Sala</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Explorando os outros quartos, você encontra um espelho antigo que parece refletir algo além da realidade. De repente, você ouve sussurros vindo do espelho.</p>
+            <button class="btn-proximo" data-proximo="11">Investigar o Espelho</button>
+            <button class="btn-proximo" data-proximo="12">Voltar para o Hall de Entrada</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Ao investigar a caixa de música, você encontra um compartimento secreto com uma nota escrita à mão. A nota revela a localização de uma passagem secreta.</p>
+            <button class="btn-proximo" data-proximo="13">Seguir a Passagem Secreta</button>
+            <button class="btn-proximo" data-proximo="14">Voltar para o Hall de Entrada</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>De volta ao andar de cima, você decide explorar os outros quartos, mas não encontra nada de significativo. No entanto, você ouve um som vindo do sótão.</p>
+            <button class="btn-proximo" data-proximo="15">Subir ao Sótão</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Ao ler o livro, você descobre que a mansão é assombrada pelos espíritos dos antigos moradores que foram traídos e mortos. A leitura é perturbadora e você se sente uma presença fria na sala.</p>
+            <button class="btn-proximo" data-proximo="16">Procurar uma Saída</button>
+            <button class="btn-proximo" data-proximo="17">Explorar Mais</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Explorando mais a sala, você encontra um mapa da mansão com um local marcado como "Sala do Tesouro".</p>
+            <button class="btn-proximo" data-proximo="18">Seguir para a Sala do Tesouro</button>
+            <button class="btn-proximo" data-proximo="19">Voltar ao Hall de Entrada</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <p>Investigar o espelho leva você a descobrir uma entrada secreta para um compartimento escondido atrás dele. No interior, você encontra evidências de rituais antigos.</p>
+            <button class="btn-proximo" data-proximo="20">Explorar o Compartimento</button>
+            <button class="btn-proximo" data-proximo="21">Sair da Mansão</button>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Voltar para o hall de entrada e tentar uma nova abordagem pode ser a chave para desvendar os mistérios da mansão.</p>
+            <button class="btn-proximo" data-proximo="1">Explorar a Mansão Novamente</button>
+        </div>
+
+        <div class="passo" id="passo-13">
+            <p>Seguindo a passagem secreta, você encontra um túnel que leva a uma câmara subterrânea com uma velha caixa de tesouro.</p>
+            <button class="btn-proximo" data-proximo="22">Abrir a Caixa de Tesouro</button>
+            <button class="btn-proximo" data-proximo="23">Voltar e Explorar Mais</button>
+        </div>
+
+        <div class="passo" id="passo-14">
+            <p>Voltando ao hall de entrada, você pode explorar outros cômodos da mansão ou decidir sair, pois o medo começa a crescer.</p>
+            <button class="btn-proximo" data-proximo="24">Explorar Outras Áreas</button>
+            <button class="btn-proximo" data-proximo="2">Desistir e Voltar para Casa</button>
+        </div>
+
+        <div class="passo" id="passo-15">
+            <p>Subindo ao sótão, você encontra objetos antigos e uma estranha caixa trancada. Há uma chave escondida embaixo de uma pilha de papéis.</p>
+            <button class="btn-proximo" data-proximo="25">Usar a Chave na Caixa</button>
+            <button class="btn-proximo" data-proximo="26">Voltar para o Andar de Cima</button>
+        </div>
+
+        <div class="passo" id="passo-16">
+            <p>Procurar uma saída é difícil, e você se depara com uma porta escondida atrás de uma estante de livros. Ao abrir, você encontra um caminho para fora da mansão.</p>
+            <button class="btn-proximo" data-proximo="27">Escapar pela Porta</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
